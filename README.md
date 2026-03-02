@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://en.wikipedia.org/wiki/Blackpink#/media/File:20240809_Blackpink_Pink_Carpet_09.png" />
-</div>
+# UniPro — Landing Page (Frontend)
 
-# Run and deploy your AI Studio app
+UniPro is a university-to-internship platform concept with a smart matching system.  
+This repository contains the **frontend landing page only** (no backend / database / authentication).
 
-This contains everything you need to run your app locally.
+## ✨ What’s inside
+- Responsive landing page (desktop + mobile)
+- Sections (example):
+  - Hero + value proposition
+  - How it works (AI 70% + Professor 30%)
+  - Benefits (students / companies / universities)
+  - Trust / verification (professor validation + consortium concept)
+  - FAQ + CTA
+- Basic UI components (buttons, navbar, footer)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1FMsTvgu7nrRcWnhAlWkhq02M8-z79Jsi
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+> Note: This repo is **UI only**. Any forms, “Get Started”, or “Join Waitlist” buttons can be wired later to API, email collection, or a CRM.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+## 🧱 Tech Stack 
+
+- Next.js
+- React
+- TypeScript 
+- Tailwind CSS 
+
+
