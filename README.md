@@ -4,7 +4,7 @@ UniPro is a university-to-internship platform concept with a smart matching syst
 This repository contains the **frontend landing page only** (no backend / database / authentication).
 
 ## ✨ What’s inside
-- Responsive landing page (desktop + mobile)
+- Responsive landing page (Web version)
 - Sections (example):
   - Hero + value proposition
   - How it works (AI 70% + Professor 30%)
@@ -14,7 +14,6 @@ This repository contains the **frontend landing page only** (no backend / databa
 - Basic UI components (buttons, navbar, footer)
 
 > Note: This repo is **UI only**. Any forms, “Get Started”, or “Join Waitlist” buttons can be wired later to API, email collection, or a CRM.
-
 
 
 ## 🧱 Tech Stack 
