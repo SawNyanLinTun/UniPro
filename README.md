@@ -1,7 +1,6 @@
 # UniPro — Landing Page (Frontend)
 
 UniPro is a university-to-internship platform concept with a smart matching system.  
-This repository contains the **frontend landing page only** (no backend / database / authentication).
 
 ## ✨ What’s inside
 - Responsive landing page (Web version)
