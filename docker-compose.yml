@@ -1,0 +1,10 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      CORS_ORIGINS: http://localhost:3000
+      # GEMINI_API_KEY: set in .env or shell; never commit it
+    volumes:
+      - ./backend/app:/srv/app
