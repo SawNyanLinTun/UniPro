@@ -50,23 +50,23 @@ const InternshipCard: React.FC<InternshipCardProps> = ({ internship, delay = "0s
       />
       
       <div className="relative z-10">
-        <span className="font-mono text-[0.65rem] bg-white/5 py-1 px-3 rounded text-gray-400 mb-6 inline-block uppercase tracking-wider">
+        <span className="text-xs font-medium bg-white/5 py-1 px-3 rounded text-gray-400 mb-6 inline-block">
           {internship.category}
         </span>
-        <h3 className="text-xl font-bold mb-3 leading-tight">{internship.title}</h3>
+        <h3 className="text-xl font-semibold mb-3 leading-tight">{internship.title}</h3>
         <p className="text-gray-400 text-sm leading-relaxed mb-6">
           {internship.description}
         </p>
         
         <div className="flex flex-wrap gap-2 mb-6">
           {internship.tags.map(tag => (
-            <span key={tag} className="text-[0.6rem] font-mono text-resin-cyan/80 border border-resin-cyan/20 px-2 py-0.5 rounded">
+            <span key={tag} className="text-xs font-medium text-resin-cyan/80 border border-resin-cyan/20 px-2 py-0.5 rounded">
               {tag}
             </span>
           ))}
         </div>
 
-        <div className="flex items-center gap-4 text-xs font-mono text-gray-400">
+        <div className="flex items-center gap-4 text-xs text-gray-400">
           <span className="flex items-center gap-2">
             <div className="w-1 h-1 rounded-full bg-resin-cyan" />
             {internship.location}

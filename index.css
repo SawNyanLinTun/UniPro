@@ -4,20 +4,21 @@
   --font-sans: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
-  --color-resin-bg: #05070a;
-  --color-resin-glass: rgba(255, 255, 255, 0.03);
-  --color-resin-border: rgba(255, 255, 255, 0.08);
-  --color-resin-cyan: #00f2ff;
-  --color-resin-purple: #7c3aed;
-  --color-resin-amber: #ffaa00;
-  --color-resin-indigo: #4f46e5;
-  --color-resin-pink: #ec4899;
+  --color-resin-bg: #0a0b0f;
+  --color-resin-glass: #14161f;
+  --color-resin-border: rgba(255, 255, 255, 0.06);
+  --color-resin-cyan: #3b82f6;
+  --color-resin-purple: #8b5cf6;
+  --color-resin-amber: #f59e0b;
+  --color-resin-indigo: #6366f1;
+  --color-resin-pink: #f43f5e;
+  --color-resin-emerald: #10b981;
 }
 
 /* Base */
 body {
-  background-color: #05070a;
-  color: #f0f0f0;
+  background-color: #0a0b0f;
+  color: #f8fafc;
   margin: 0;
   overflow-x: hidden;
 }
@@ -33,15 +34,15 @@ body {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(25px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #14161f;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .glass-input {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(40px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #14161f;
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 /* Keyframe animations */

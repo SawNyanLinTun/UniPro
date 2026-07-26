@@ -1,0 +1,9 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+python-multipart>=0.0.12
+pdfplumber>=0.11
+pydantic>=2.9
+
+# Optional extras (uncomment when needed):
+# sentence-transformers>=3.0   # real SSSA embeddings (MiniLM); falls back to token similarity without it
+# google-genai>=1.0            # server-side Gemini for POST /advice; falls back to heuristic without it
