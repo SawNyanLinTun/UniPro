@@ -6,7 +6,6 @@ UniPro is a university-to-internship platform concept with a smart matching syst
 - Responsive landing page (Web version)
 - Sections (example):
   - Hero + value proposition
-  - How it works (AI 70% + Professor 30%)
   - Benefits (students / companies / universities)
   - Trust / verification (professor validation + consortium concept)
   - FAQ + CTA
